@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User form</title>
+  </head>
+  <body>
+    <!-- Create a contact form with:
+    Name (text input)
+    Email (email input)
+    Message (textarea)
+    Submit button -->
+
+    <form>
+      <h1>Contact form</h1>
+      <input type="text" placeholder="Enter your name" /><br /><br />
+      <input type="email" placeholder="Enter your email address" /><br /><br />
+      <textarea rows="4" cols="20"></textarea><br /><br />
+      <button type="submit" onclick="onClick()">Submit</button>
+    </form>
+    <script>
+      function onClick() {
+        alert("Form submitted");
+      }
+    </script>
+  </body>
+</html>

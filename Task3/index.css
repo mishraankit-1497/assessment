@@ -1,0 +1,60 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 88vh;
+}
+
+.main-content {
+    width: 80%;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+section {
+    display: none; 
+}
+
+section:target {
+    display: block; 
+}
+
+.m-4 {
+    margin: 8px;
+}
+
+h2 {
+    color:tomato;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.item {
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+        color: blueviolet;
+    }
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
